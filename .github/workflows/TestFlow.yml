@@ -17,9 +17,6 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
-        repository: Rabatberegner/Rabatberegner
-        ref: master
-        path: ./Rabatberegner.csproj
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
