@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore ./RabatberegnerSolution.sln
+      run: dotnet restore ./Rabatberegner/RabatberegnerSolution.sln
     - name: Build
       run: dotnet build Rabatberegner/Rabatberegner/RabatberegnerSolution.csproj --no-restore
     - name: Test
