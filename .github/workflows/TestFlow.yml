@@ -20,6 +20,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./Rabatberegner/RabatberegnerSolution.sln
     - name: Build
-      run: dotnet build Rabatberegner/Rabatberegner/RabatberegnerSolution.csproj --no-restore
+      run: dotnet build Rabatberegner/Rabatberegner/Rabatberegner.csproj --no-restore
     - name: Test
       run: dotnet test ./RabatberegnerSolution.sln --no-build --verbosity normal
